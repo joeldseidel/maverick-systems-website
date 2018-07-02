@@ -7,6 +7,14 @@
     src: url(../fonts/SourceSansPro-Regular.ttf);
 }
 
+.brand-text{
+	color: #19334d;
+}
+
+.brand-bg{
+	background-color: #19334d;
+}
+
 .brandFont{
 	padding-top:5%; 
 	padding-right:5%;
