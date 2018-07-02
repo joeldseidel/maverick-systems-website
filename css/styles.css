@@ -23,6 +23,16 @@
 	float:right;
 }
 
+.noPaddingCol{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.mainNavbar{
+	border-radius: 10px;
+	margin-right:-10px;
+}
+
 .card-title{
 	font-weight: bold;
 }
@@ -38,6 +48,10 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width:100vw;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size: 100px;
 }
 
 .footercontainer{
