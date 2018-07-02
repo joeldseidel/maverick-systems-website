@@ -54,6 +54,23 @@
     font-size: 80px;
 }
 
+@media only screen and (max-width: 800px) {
+   	.imagetext {
+	    position: absolute;
+	    top: 45%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    width:100vw;
+	    padding-top:10px;
+	    padding-bottom:10px;
+	    font-size: 30px;
+	}
+
+	.logoCol{
+		padding-bottom: 10px;
+	}
+}
+
 .footercontainer{
 	border-top: 0.5px solid black;
 }
