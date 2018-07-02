@@ -49,9 +49,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width:100vw;
-    padding-top:50px;
-    padding-bottom:50px;
-    font-size: 100px;
+    padding-top:40px;
+    padding-bottom:40px;
+    font-size: 80px;
 }
 
 .footercontainer{
