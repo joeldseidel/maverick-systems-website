@@ -1,7 +1,15 @@
 *{
-	font-family: sourceSansPro, sans-serif;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	color: white;
 }
 
+body{
+	background-color: #0c1a27;
+}
+
+hr{
+	background-color: white;
+}
 @font-face {
     font-family: sourceSansPro;
     src: url(../fonts/SourceSansPro-Regular.ttf);
@@ -23,54 +31,6 @@
 	float:right;
 }
 
-.noPaddingCol{
-	padding-left:0px;
-	padding-right:0px;
-}
-
-.mainNavbar{
-	border-radius: 10px;
-	margin-right:-10px;
-}
-
-.card-title{
-	font-weight: bold;
-}
-
-.imagecontainer {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.imagetext {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width:100vw;
-    padding-top:40px;
-    padding-bottom:40px;
-    font-size: 80px;
-}
-
-@media only screen and (max-width: 800px) {
-   	.imagetext {
-	    position: absolute;
-	    top: 45%;
-	    left: 50%;
-	    transform: translate(-50%, -50%);
-	    width:100vw;
-	    padding-top:10px;
-	    padding-bottom:10px;
-	    font-size: 30px;
-	}
-
-	.logoCol{
-		padding-bottom: 10px;
-	}
-}
-
 .footercontainer{
 	border-top: 0.5px solid black;
 }
@@ -78,4 +38,114 @@
 .productDescription{
 	padding-left: 20%;
 	padding-right: 30%;
+}
+
+#header-carousel{
+	height: 500px;
+}
+
+#header-carousel img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+#header-carousel .carousel-indicators{
+	top: 10px;
+}
+
+.tooltip-inner{
+	max-width: 100%;
+}
+
+#logo-caption{
+	position: absolute;
+	top: 244px;
+	height: 200px;
+	width: 100%;
+	background: rgba(12,26,39,0.75);
+}
+
+#logo-image{
+	object-fit: scale-down;
+	width: 100%;
+}
+
+#info-button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+#info-button img{
+	background: rgba(0,0,0,0.25);
+	width:100%;
+}
+
+#info-button img:hover {
+	background: rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 575px){
+	#logo-caption{
+		position: absolute;
+		top: 294px;
+		height: 150px;
+		width: 100%;
+		background: rgba(0,0,0,0.75);
+	}
+	#main-navbar{
+		position:absolute;
+		top: 444px;
+		width: 100%;
+		background: rgba(0,0,0,0.75)
+	}
+}
+
+#main-navbar{
+	position:absolute;
+	top: 444px;
+	width: 100%;
+	background: rgba(12,26,39,0.75);
+}
+
+#main-navbar a{
+	text-decoration: none;
+	color: white;
+}
+
+.feature-box-button{
+	position: relative;
+	height: 250px;
+}
+
+.feature-box-button img{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.feature-box-button img:hover{
+	filter: grayscale(75%);
+}
+
+.feature-box-button .feature-title{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.solutions-title{
+	padding-top: 5%;
+	padding-bottom: 2.5%;
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+	font-size: 48px;
+}
+
+.feature-row{
+	margin-bottom: 10px;
 }
