@@ -18,6 +18,13 @@ $(document).ready(function(){
     $('#header-carousel').click(function(){
         $('#info-tooltip').tooltip("hide");
     });
+    $('.feature-box-button').hover(function(){
+        var thisFeatureImage = $(this).find('.feature-image');
+        thisFeatureImage.css({'filter': 'grayscale(75%)'});
+    }, function(){
+        var thisFeatureImage = $(this).find('.feature-image');
+        thisFeatureImage.css({'filter': 'grayscale(0%)'});
+    });
 });
 function changeToolTip(){
     var currentSlide = $('div.active').index() + 1;
